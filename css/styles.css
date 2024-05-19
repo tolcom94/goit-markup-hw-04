@@ -36,6 +36,7 @@ img{
     display: flex;
     gap: 40px;
     padding: 0;
+    list-style-type: none;
 }
 .menu-studio{
     padding-top: 24px;
@@ -44,6 +45,7 @@ img{
 .nav-address-display{
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 .nav-address-display{
     margin-right: 40px;
@@ -67,6 +69,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 .navbar-menu a:hover,.navbar-menu a:focus{
     color: #404bbf;
@@ -76,6 +79,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .nav-address-first:hover,.nav-address-first:focus{
