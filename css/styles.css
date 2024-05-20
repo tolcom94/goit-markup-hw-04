@@ -30,6 +30,7 @@ img{
     justify-content: space-between;
     align-items: center;
     display: flex;
+    height: 72px;
 }
 .first-navbar{
     display: flex;
@@ -44,6 +45,19 @@ img{
 .menu-studio{
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-studio:hover::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
 }
 .nav-address-display{
     display: flex;
