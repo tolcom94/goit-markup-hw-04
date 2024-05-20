@@ -27,6 +27,9 @@ img{
     justify-content: space-between;
     align-items: center;
     display: flex;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .first-navbar{
     display: flex;
@@ -41,19 +44,6 @@ img{
 .menu-studio{
     padding-top: 24px;
     padding-bottom: 24px;
-    position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.menu-studio::after{
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    border-radius: 2px;
-
 }
 .nav-address-display{
     display: flex;
@@ -93,7 +83,6 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-address-first:hover,.nav-address-first:focus{
