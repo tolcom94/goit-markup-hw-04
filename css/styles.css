@@ -348,6 +348,13 @@ img{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.footer-class-container{
+    display: flex;
+    align-items: baseline;
+}
+.footer-first-div{
+    margin-right: 120px;
+}
 .social-media-footer{
     font-weight: 500;
     font-size: 16px;
