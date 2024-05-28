@@ -347,12 +347,10 @@ img{
     background-color:  #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-.footer-class-container{
     display: flex;
     align-items: baseline;
 }
-.footer-first-div{
+.footer-second-div{
     margin-right: 120px;
 }
 .social-media-footer{
