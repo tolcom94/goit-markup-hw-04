@@ -380,6 +380,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-connect:hover, .footer-icon-connect:focus{
     background-color: #31d0aa;
